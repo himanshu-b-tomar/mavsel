@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [cardinal]">
+  <test thread-count="3" name="testing suite 1(failed)">
+    <classes>
+      <class name="com.cardinal.core.OpenandCloseBrowser">
+        <methods>
+          <include name="test1"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.cardinal.core.OpenandCloseBrowser -->
+    </classes>
+  </test> <!-- testing suite 1(failed) -->
+</suite> <!-- Failed suite [cardinal] -->
