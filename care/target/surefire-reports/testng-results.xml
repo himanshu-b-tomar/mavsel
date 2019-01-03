@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="cardinal" duration-ms="16376" started-at="2019-01-03T07:42:36Z" finished-at="2019-01-03T07:42:53Z">
+    <groups>
+    </groups>
+    <test name="testing suite 1" duration-ms="16376" started-at="2019-01-03T07:42:36Z" finished-at="2019-01-03T07:42:53Z">
+      <class name="com.cardinal.core.OpenandCloseBrowser">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.cardinal.core.OpenandCloseBrowser@2d3fcdbd]" name="openBrowser" is-config="true" duration-ms="15097" started-at="2019-01-03T07:42:36Z" finished-at="2019-01-03T07:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.cardinal.core.OpenandCloseBrowser@2d3fcdbd]" name="test1" duration-ms="1003" started-at="2019-01-03T07:42:51Z" finished-at="2019-01-03T07:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.cardinal.core.OpenandCloseBrowser@2d3fcdbd]" name="closeBrowser" is-config="true" duration-ms="220" started-at="2019-01-03T07:42:52Z" finished-at="2019-01-03T07:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.cardinal.core.OpenandCloseBrowser -->
+    </test> <!-- testing suite 1 -->
+  </suite> <!-- cardinal -->
+</testng-results>
