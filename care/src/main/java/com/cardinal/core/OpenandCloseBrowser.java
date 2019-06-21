@@ -44,6 +44,7 @@ public class OpenandCloseBrowser {
 
 	@AfterClass
 	public void closeBrowser() {
+		System.out.println("Closing the browser");
 		driver.quit();
 	}
 }
